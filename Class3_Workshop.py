@@ -53,7 +53,7 @@ while True:
         HitRound = int(input(f"คุณต้องการจะตีกับ{Monstername}กี่รอบ :"))
         if(ChoiceLichKing):
             HitRound = 6
-            print("ลิชคิงบังคับให้คุณต่อสู้กับมันใน 6 รอบเท่านั้น")
+            print(Monstername,MonsterEffect)
         print(f"ท่านจะสู้กับ{Monstername} ทั้งหมด{HitRound} รอบ")
         for i in range(1,HitRound+1):
                 Run = input(f"=====หลบหนี===== \nท่านต้องการที่จะหลบหนีจาก{Monstername}หรือไม่(1 = ใช่ หรือ 2 = ไม่ :)")
