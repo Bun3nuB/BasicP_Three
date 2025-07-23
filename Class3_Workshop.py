@@ -1,7 +1,7 @@
 MonsterHP = 200.0
 Monstername = "มังกร"
-SwordDamage = 15.5
-Axe = 24.5
+SwordDamage = 20
+Axe = 25
 Gun = 45
 MonsterDead = False
 
@@ -21,7 +21,7 @@ while True:
                     print(f"ท่านเลือกที่จะต่อสู้ยืนหยัดกับ{Monstername}")
                     print(f"รอบที่ {i}")
                     print("1.ดาบ(20 ดาเมจ)")
-                    print("2.ขวาน(24.5 ดาเมจ)")
+                    print("2.ขวาน(24 ดาเมจ)")
                     print("3.ปืน(45 ดาเมจ)")
                     while True:
                         Weapon = int(input(f"โปรดเลือกอาวุธที่ท่านจะใช้ต่อสู้กับ{Monstername}:)"))
@@ -48,6 +48,8 @@ while True:
                     print("ใส่ข้อมูลผิดพลาด ลองใหม่")
         if(MonsterDead == True):
             print("ยินดีด้วย คุณชนะเกมนี้แล้ววว")
+        elif Run == "1":
+            print(f"ท่านหลบหนีจาก {Monstername} สำเร็จ")
         elif(MonsterDead == False):
             print("หมดเวลาแล้วว!")
             print("เสียใจด้วยคล้ายหน้าเอาใหม่นะ")
