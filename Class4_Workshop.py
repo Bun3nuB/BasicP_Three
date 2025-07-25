@@ -7,7 +7,6 @@ Movielist = [
         {"Movie":"CaptianCambodia:The First Avegy","Price":190,"Rate":"G","Genre":"Fantasy"},
         {"Movie":"WhitePolar : dawakan Forever","Price":185,"Rate":"PG-13","Genre":"Comedy"},
     ]
-
 def MovieList():
     print("============================{ MovieList }============================")
     for movie in Movielist:
@@ -61,11 +60,6 @@ def Buyticket():
         print("ท่านสามารถชำระเงินได้ที่เคาเตอร์")
     else:
         print("ท่านไม่สามารถดูหนังเรื่องนี้ได้")
-
-    
-    
-    
-        
 def Menu():
     while True:
         menuChoice = int(input("=====ยินดีต้อนรับสู่Ohio Cinema=====\n1: แสดงหนังทั้งหมด \n2: ซื้อตั่วหนัง \nท่านต้องการจะทำอะไร :"))
@@ -74,9 +68,6 @@ def Menu():
         elif menuChoice == 2:
             Buyticket()
             break
-        
-        
-
 Menu()
     
     
