@@ -13,6 +13,7 @@ lottos = [
     {"Number":"699875","Stock":9},
     {"Number":"986396","Stock":10}
 ]
+
 def Menu():
     while True:
         menuChoice = int(input("=====ยินดีต้อนรับสู่ ITSantis999=====\n1: แสดงLottoryทั้งหมด \n2: ซื้อLottory \nท่านต้องการจะทำอะไร :"))
